@@ -8,6 +8,11 @@ class Song
 def Song.title = "Formation"
   ("Formation") = ("Formation")
   
+def self.all
+  @all
+end
+
+  
 end
 end
 
